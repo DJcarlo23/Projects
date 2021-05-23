@@ -48,9 +48,9 @@ while True:
         end_cord_y = y + h
         cv2.rectangle(frame, (x, y), (end_cord_x, end_cord_y), color, stroke)
 
-        eyes = eye_cascade.detectMultiScale(roi_gray)
-        for (ex, ey, ew, eh) in eyes:
-            cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
+        # eyes = eye_cascade.detectMultiScale(roi_gray)
+        # for (ex, ey, ew, eh) in eyes:
+        #     cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
 
         smile = smile_cascade.detectMultiScale(roi_gray)
         for (sx, sy, sw, sh) in smile:
