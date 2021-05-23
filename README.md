@@ -1,2 +1,2 @@
 # Hello
-Prosty program, który rozpoznaje twarze i wykrywa uśmiech.
+A simple program that recognises faces and detects smiles.
